@@ -108,7 +108,7 @@ public class ExerciseEdit extends AppCompatActivity {
             else {
 
                 ContentValues cv = new ContentValues();
-                if(s.equals("")){
+                if("".equals(s)){
                     Toast.makeText(getApplicationContext(), "Exercise needs name!!" , Toast.LENGTH_SHORT).show();
                     return;
                 }

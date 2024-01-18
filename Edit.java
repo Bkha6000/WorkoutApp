@@ -53,7 +53,7 @@ public class Edit extends AppCompatActivity {
         final String fd1 = bv1.getStringExtra("Tie");
 
         ada = findViewById(R.id.button3);
-        if(fd1!= null &&fd1.equals("1")){
+        if(fd1!= null &&"1".equals(fd1)){
             ada.setVisibility(View.INVISIBLE);
         }
         myada = new ArrayAdapter<String>(this, R.layout.info);
